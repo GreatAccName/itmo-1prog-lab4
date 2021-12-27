@@ -142,14 +142,14 @@ public class Story {
         System.out.println("--------------------");
 
         // вложенный класс
-        System.out.println("\n       innerClass:\t"+
-            Person.Disease.class.getName() +"\n");
+        System.out.println("       innerClass:\t"+
+            Person.Disease.class.getName());
         // статический класс
         System.out.println("staticNestedClass:\t"+
-            Pilulkin.InpectionQuality.class.getName() +"\n");
+            Pilulkin.InpectionQuality.class.getName());
         // локальный, анонимный класс
         System.out.println("locAnonymousClass:\t"+
-            happy.getClass().getName() +"\n");
+            happy.getClass().getName());
     }
 
     public static void checkUnchecked() {

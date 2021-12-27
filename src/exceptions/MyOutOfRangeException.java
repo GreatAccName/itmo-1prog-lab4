@@ -10,6 +10,6 @@ public class MyOutOfRangeException extends RuntimeException {
     public MyOutOfRangeException() {
         super("\n ################################\n" +
             " Выход за предел массива\n" +
-             " ################################\n");
+            " ################################\n");
     }
 }
